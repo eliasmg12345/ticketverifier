@@ -69,7 +69,7 @@ export default function HomePage() {
     <main className="p-8 flex justify-center">
       <Card className="w-full max-w-lg">
         <CardHeader>
-          <CardTitle className="text-center">Verificador de billetes habilitados serie B</CardTitle>
+          <CardTitle className="text-center">Verificador Sólo para billetes Inhabilitados serie B</CardTitle>
           <CardDescription>Selecciona la categoría e ingresa el numero de serie</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
