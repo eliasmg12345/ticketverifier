@@ -70,7 +70,7 @@ export default function HomePage() {
       <Card className="w-full max-w-lg">
         <CardHeader>
           <CardTitle className="text-center">Verificador Sólo para billetes Inhabilitados serie B</CardTitle>
-          <CardDescription>Selecciona la categoría e ingresa el numero de serie</CardDescription>
+          <CardDescription className="text-center ">Sólo aparecerá el mensaje  de confirmación si es un billete inhabilitado de la serie B</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
