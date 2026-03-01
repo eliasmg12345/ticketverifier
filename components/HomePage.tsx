@@ -60,8 +60,8 @@ export default function HomePage() {
 
     setResult(
       permitted
-        ? `✓ El número ${parsed} tiene valor legal en la categoria ${category}.`
-        : `✗ El número ${parsed} NO tiene valor legal en la categoria ${category}.`
+        ? `✗ El número ${parsed} NO tiene valor legal en la categoria ${category}.`
+        : `✓ El número ${parsed} tiene valor legal en la categoria ${category}.`
     );
   }, [numberValue, category, intervals]);
 
